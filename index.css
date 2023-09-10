@@ -1,0 +1,85 @@
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'CustomFont2', Helvetica, sans-serif;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #d4e0e9;
+  padding: 20px;
+  color: #fff;
+
+  #profile-image {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+}
+
+.contact-info {
+  text-align: right;
+}
+
+.work-experience,
+.projects,
+.education,
+.skills,
+.hobbies {
+  background-color: #fff;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.work-experience h2,
+.projects h2,
+.education h2,
+.skills h2,
+.hobbies h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.job-entry h3,
+.project-entry h3 {
+  color: #3498db;
+  margin-bottom: 5px;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  margin-left: 10px;
+}
